@@ -10,7 +10,10 @@ namespace csharp1
             string name = Console.ReadLine();
             
             Console.Write("Enter your age: ");
-            int age = Convert.ToInt32(Console.ReadLine());
+            int age = Convert.ToInt32(Console.ReadLine()); 
+            
+            // Т.к Console.ReadLine принимает значения типа string, я конвертирую то что вводит пользователь в int
+            
             Console.WriteLine("Hello, " + name + ". You are " + age + "-years-old.");
             
             if (age < 16)
