@@ -1,0 +1,3 @@
+# CSharpThings
+
+Learning C#
